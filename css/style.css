@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@400;500;600;700&display=swap');
+
+body{
+    font-family: sans-serif;
+    line-height: 1.7;
+    color: #92ABE4;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+    color:#004EA1;
+}
+a{
+    color: #092032;
+    text-align: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+img{
+    width: 100%;
+}
+.bg-cover{
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+/*BTN*/
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+.btn-brand{
+    background-color: #004EA1;
+    color: #ffffff;
+    border-color: #004EA1;
+}
+.btn-brand:hover{
+    color: #ffffff;
+    background-color: #052b56;
+}
+
+/* Navbar starts */
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.9);
+    background-color: #0073e6;
+}
+
+.nav-item{
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    font-weight: bold;
+    color: #56C5D0;
+    text-decoration: underline;
+}
+/* Navbar Ends */
+
+
+
+/* Hero section start*/
+.slide1{
+    background:linear-gradient(rgba(9,32, 50,0.4), rgba(9,32, 50,0.4)) ,url('../images/welcome.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slide2{
+    background:linear-gradient(rgba(9,32, 50,0.4), rgba(9,32, 50,0.4)) ,url('../images/quality\ services\ .jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slide3{
+    background:linear-gradient(rgba(9,32, 50,0.4), rgba(9,32, 50,0.4)) ,url('../images/Road\ Maintenance.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.owl-prev,
+.owl-next{
+    position: absolute;
+    top: 49%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    margin-top: -30px !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 12px;
+    border-radius: 100px !important;
+}
+.owl-prev:hover,
+.owl-next:hover{
+    background-color: #004EA1 !important;
+}
+.owl-prev{
+    left: 0;
+}
+.owl-next{
+    right: 0;
+}
+/* Hero section end*/
+
+
+/* About section Starts*/
+ .about-section {
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  
+}
+
+.about-image-wrapper {
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.row p{
+    color: black;
+}
+/* About section Ends*/
+
+/* Services starts */
+/* .service-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+.service-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeInUp 0.8s ease-in-out;
+}
+
+.service-content i {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.service-content p{
+    color: #ffffff;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
+
+/* Services ends */
+
+/* Core Market start */
+/* #core-market h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#core-market p{
+    color: black;
+}
+
+#core-market .col-md-4 {
+    padding: 20px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#core-market .col-md-4 h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+#core-market .col-md-4 p {
+    font-size: 1rem;
+    color: #666;
+}
+
+#core-market .col-md-4:hover {
+    transform: translateY(-10px);
+    background-color: #d4d4d4; 
+}  */
+
+/* Core Market end */
+
+/* Contact Us stats */
+/* #contact {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#contact h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+#contact .form-label {
+    font-size: 1.1rem;
+    color: #007bff;
+    font-weight: 600;
+}
+
+#contact .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#contact .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#contact .btn-brand {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#contact .btn-brand:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+#contact .text-primary {
+    color: #007bff;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+#contact p i {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+#contact p span {
+    font-size: 1.1rem;
+    color: #333;
+    margin-left: 10px;
+} */
+/* Contact us ends */
+
+/* Footer starts */
+/* footer {
+    background-color: #004EA1;
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff;
+} */
+/* Footer ends */
+
